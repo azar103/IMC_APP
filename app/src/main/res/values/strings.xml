@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IMC_APP</string>
+    <string name="text_poids">Poids :</string>
+    <string name="edit_poids">Poids</string>
+    <string name="text_taille">Taille :</string>
+    <string name="edit_taille">Taille</string>
+</resources>

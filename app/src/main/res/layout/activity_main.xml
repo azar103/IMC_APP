@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/textPoids"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/text_poids"
+    android:textColor="#FF0000"
+    android:textStyle="bold"
+    android:gravity="center"/>
+<EditText
+    android:id="@+id/editPoids"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/edit_poids"
+    />
+<TextView
+    android:id="@+id/textTaille"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="@string/text_taille"
+    android:textColor="#FF0000"
+    android:textStyle="bold"/>
+<EditText
+    android:id="@+id/editTaille"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/edit_taille"/>
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/rg">
+    <RadioButton
+        android:id="@+id/rd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mètre1"
+        />
+    <RadioButton
+        android:id="@+id/rd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Centimètre"/>
+</RadioGroup>
+<CheckBox
+    android:id="@+id/check"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Mega fonction !"/>
+<Button
+    android:id="@+id/imc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Calculer l'IMC"/>
+<Button
+    android:id="@+id/raz"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RAZ"/>
+<TextView
+    android:id="@+id/text_result"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Résultat:"
+    />
+<TextView
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+</LinearLayout>
